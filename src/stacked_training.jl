@@ -51,7 +51,7 @@ function pcd!(
         ∂d = ∂free_energy(rbm, vd; wts=wd, moments)
         ∂m = ∂free_energy(rbm, vm)
         ∂m_below = ∂free_energy(rbm, hm_below)
-        ∂ = ∂d + α_KL * ∂m_below - (1 + α_KL) * ∂m
+        ∂ = (1 - α_KL) * ∂d + α_KL * ∂m_below - ∂m
 
         # correct weighted minibatch bias
         batch_weight = isnothing(wts) ? 1 : mean(wd) / wts_mean

@@ -14,6 +14,11 @@ using RestrictedBoltzmannMachines: RBM
 using RestrictedBoltzmannMachines: StandardizedRBM
 using RestrictedBoltzmannMachines: moments_from_samples
 using RestrictedBoltzmannMachines: infinite_minibatches
+using RestrictedBoltzmannMachines: ∂free_energy
+using RestrictedBoltzmannMachines: ∂regularize!
+using RestrictedBoltzmannMachines: zerosum!
+using RestrictedBoltzmannMachines: rescale_weights!
+using RestrictedBoltzmannMachines: sample_from_inputs
 using Optimisers: AbstractRule, setup, update!, Adam
 using Tail2Front2: tail2
 

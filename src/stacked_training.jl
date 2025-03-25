@@ -1,7 +1,7 @@
 function pcd!(
     rbm::RBM,
     rbm_below::Union{RBM,StandardizedRBM},
-    data_repr::Matrix, # visible layer of the RBM being trained
+    data_repr::Matrix; # visible layer of the RBM being trained
     iters::Int=1, # number of gradient updates
     wts::Union{AbstractVector,Nothing}=nothing, # data weights
     steps::Int=1, # MC steps to update fantasy chains

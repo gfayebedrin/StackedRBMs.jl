@@ -12,6 +12,8 @@ using RestrictedBoltzmannMachines: sample_v_from_v
 using RestrictedBoltzmannMachines: sample_h_from_h
 using RestrictedBoltzmannMachines: RBM
 using RestrictedBoltzmannMachines: StandardizedRBM
+using RestrictedBoltzmannMachines: moments_from_samples
+using RestrictedBoltzmannMachines: infinite_minibatches
 using Optimisers: AbstractRule, setup, update!, Adam
 using Tail2Front2: tail2
 

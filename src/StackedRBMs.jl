@@ -19,6 +19,7 @@ using RestrictedBoltzmannMachines: ∂regularize!
 using RestrictedBoltzmannMachines: zerosum!
 using RestrictedBoltzmannMachines: rescale_weights!
 using RestrictedBoltzmannMachines: sample_from_inputs
+using FillArrays: Fill, Zeros, Ones, Trues, Falses
 using Optimisers: AbstractRule, setup, update!, Adam
 using Tail2Front2: tail2
 

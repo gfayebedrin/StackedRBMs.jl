@@ -1,10 +1,11 @@
 name = "StackedRBMs"
 uuid = "510a6afa-0cce-43b2-a064-ef42a99433c5"
 authors = ["GFB <guillaume.faye-bedrin@phys.ens.fr>"]
-version = "0.0.5-DEV"
+version = "0.0.6-DEV"
 
 [deps]
 ConditionalSwaps = "d4206499-9796-4f58-8a56-acae5424fe35"
+FillArrays = "1a297f60-69ca-5386-bcde-b61e274b549b"
 MetropolisRules = "d7583257-2d3b-486d-b93f-702fcfec9f7b"
 Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
 RestrictedBoltzmannMachines = "12e6b396-7db5-4506-8cb6-664a4fe1e50e"
@@ -12,6 +13,7 @@ Tail2Front2 = "64a072fb-ee9f-4297-92fa-03899ca5ed3d"
 
 [compat]
 ConditionalSwaps = "2"
+FillArrays = "1.13.0"
 MetropolisRules = "1"
 Optimisers = "0.4.5"
 RestrictedBoltzmannMachines = "3"

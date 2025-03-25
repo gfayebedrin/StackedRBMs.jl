@@ -1,7 +1,7 @@
 name = "StackedRBMs"
 uuid = "510a6afa-0cce-43b2-a064-ef42a99433c5"
 authors = ["GFB <guillaume.faye-bedrin@phys.ens.fr>"]
-version = "0.0.6-DEV"
+version = "0.0.7-DEV"
 
 [deps]
 ConditionalSwaps = "d4206499-9796-4f58-8a56-acae5424fe35"

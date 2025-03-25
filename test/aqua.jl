@@ -1,7 +1,7 @@
 import Aqua
-import StackedTempering
+import StackedRBMs
 using Test: @testset
 
 @testset verbose = true "aqua" begin
-    Aqua.test_all(StackedTempering; ambiguities = false)
+    Aqua.test_all(StackedRBMs; ambiguities = false)
 end

@@ -1,7 +1,7 @@
 using Test: @testset, @test, @inferred
 using Statistics: mean
 using RestrictedBoltzmannMachines: RBM, BinaryRBM, sample_v_from_v, sample_h_from_v
-using StackedTempering: sample_bottom_to_top, sample_top_to_bottom, stacked_tempering
+using StackedRBMs: sample_bottom_to_top, sample_top_to_bottom, stacked_tempering
 
 rbms = (
     BinaryRBM(randn(7), randn(5), randn(7,5)),
